@@ -22,6 +22,18 @@ The module consists of three exercises:
    - Refactors the Animal class into an abstract class by making its constructor protected.
    - Prevents instantiation of the default Animal class directly.
    - Updates class hierarchy to maintain functionality.
+## Exercise 03: 
+- Materia System (Subtype Polymorphism & Interfaces)
+- Introduces AMateria as an abstract base class representing magical abilities.
+- Concrete Ice and Cure classes inherit from AMateria, each implementing clone() and use() functions.
+- Defines the ICharacter interface with methods to equip, unequip, and use Materias.
+- Implements Character class that can hold up to 4 Materias, supports deep copying, and safely manages memory.
+- Defines the IMateriaSource interface for creating and learning Materias.
+- Implements MateriaSource class, which stores learned Materias and can create new instances on demand.
+- Demonstrates:
+   - Deep copying of Materias and Characters.
+   - Correct polymorphic behavior through interfaces.
+   - Safe memory management to avoid leaks.
 ## Files Structure: 
 - Each exercise is organized into its own directory (ex00, ex01, ex02).
 - Header files (Animal.hpp, Brain.hpp, AAnimal.hpp) and source files (Animal.cpp, Brain.cpp, AAnimal.cpp) are segregated.
