@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/17 14:49:55 by adhaka            #+#    #+#             */
-/*   Updated: 2024/01/30 05:09:03 by adhaka           ###   ########.fr       */
+/*   Updated: 2025/12/02 09:58:25 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,6 @@ AAnimal &AAnimal::operator=(const AAnimal &src)
 AAnimal::~AAnimal()
 {
 	std::cout << "AAnimal destructor called" << std::endl;
-}
-
-void AAnimal::makeSound() const
-{
-	std::cout << "AAnimals yapping" << std::endl;
 }
 
 std::string AAnimal::getType() const
